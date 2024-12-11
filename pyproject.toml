@@ -1,0 +1,15 @@
+[project]
+name = "pubi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask-cors>=5.0.0",
+    "flask>=3.1.0",
+    "datasets>=3.1.0",
+    "evaluate>=0.4.3",
+    "accelerate>=1.2.0",
+    "openai>=1.57.1",
+    "pyinstaller>=6.11.1",
+]
